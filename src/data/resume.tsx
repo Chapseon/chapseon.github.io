@@ -49,13 +49,13 @@ export const DATA = {
       done: "C로 BFS/DFS, 정수론, 큰 수 연산, 스택·큐 문제 풀이, C++ 객체지향 프로그래밍, C 과목 튜터링 참여",
     },
     {
-      title: "웹 · AI",
+      title: "웹",
       skills: [
         { name: "JavaScript", icon: JavascriptIcon },
         { name: "HTML", icon: HtmlIcon },
         { name: "CSS", icon: CssIcon },
       ],
-      done: "Gemini + GPT-4o 레시피 추천 앱, OCR 문서 처리 파이프라인, 시험 대비 인터랙티브 퀴즈 앱",
+      done: "HTML · CSS · JavaScript로 웹 페이지 제작",
     },
     {
       title: "봇 · 서버",
@@ -67,12 +67,12 @@ export const DATA = {
       done: "나쟈봇 개발과 Cafe24 호스팅, NeoForge 모드 마인크래프트 서버 직접 운영",
     },
     {
-      title: "UI · 영상 · 도구",
+      title: "UI · 도구",
       skills: [
         { name: "UI 디자인" },
         { name: "Claude Code", icon: ClaudeIcon },
       ],
-      done: "인디 게임팀 UI · 비주얼 디렉션 · 영상 담당, 공모전 발표 자료 제작, YouTube Shorts 채널 운영",
+      done: "인디 게임팀 UI · 비주얼 디렉션 담당, Claude Code로 개발 작업 자동화",
     },
   ],
 
