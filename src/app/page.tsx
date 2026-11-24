@@ -6,7 +6,6 @@ import { ChevronDown } from "lucide-react";
 import { DATA } from "@/data/resume";
 import ContactSection from "@/components/section/contact-section";
 import GamesSection from "@/components/section/games-section";
-import ProjectsSection from "@/components/section/projects-section";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -53,39 +52,6 @@ export default function Page() {
       <section id="games">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <GamesSection />
-        </BlurFade>
-      </section>
-      <section id="skills">
-        <div className="flex min-h-0 flex-col gap-y-6">
-          <BlurFade delay={BLUR_FADE_DELAY * 5}>
-            <h2 className="text-xl font-bold">할 줄 아는 것</h2>
-          </BlurFade>
-          {DATA.skillGroups.map((group, gi) => (
-            <BlurFade key={group.title} delay={BLUR_FADE_DELAY * 6 + gi * 0.05}>
-              <div className="flex flex-col gap-2">
-                <div className="text-sm font-semibold">{group.title}</div>
-                <div className="flex flex-wrap gap-2">
-                  {group.skills.map((skill) => (
-                    <div
-                      key={skill.name}
-                      className="border bg-background border-border ring-2 ring-border/20 rounded-xl h-8 w-fit px-4 flex items-center gap-2"
-                    >
-                      {"icon" in skill && skill.icon ? (
-                        <skill.icon className="size-4 overflow-hidden object-contain" />
-                      ) : null}
-                      <span className="text-foreground text-sm font-medium">{skill.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="text-sm text-muted-foreground break-keep">{group.done}</p>
-              </div>
-            </BlurFade>
-          ))}
-        </div>
-      </section>
-      <section id="projects">
-        <BlurFade delay={BLUR_FADE_DELAY * 13}>
-          <ProjectsSection />
         </BlurFade>
       </section>
       <section id="contact">
