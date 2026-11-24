@@ -22,6 +22,8 @@ export const DATA = {
   // 맨 위 큰 글씨(좋아하는 게임 대사)와 그 아래 작은 글씨
   heroTitle: "마침내 행복하기를",
   heroSub: "Chapseon / 찹선",
+  // 디스코드·카톡에 링크를 붙였을 때 미리보기에 나오는 문구
+  shareDescription: "마침내 행복하기를 · 림버스 컴퍼니, 이터널 리턴, 레인보우 식스 시즈 같이 할 사람 구해요",
   url: "https://chapseon.github.io",
   description:
     "Unity 클라이언트 프로그래머를 준비하는 응용소프트웨어공학과 학생입니다. 게임을 만들고, 게임을 하고, 그 사이에 필요한 도구를 직접 만듭니다.",
